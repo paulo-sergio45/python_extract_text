@@ -1,0 +1,17 @@
+[project]
+name = "python-extract-text"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "paulo-sergio45",email = "paulo_sergio2006@hotmail.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pdfminer (>=20191125,<20191126)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
